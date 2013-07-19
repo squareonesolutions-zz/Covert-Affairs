@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<gallery imagesFolder="art/" thumbnailsFolder="art/thumbs/">
+
+		<img src="art1.jpg" thumbnailSrc="art1.jpg"  width="778" height="627" />
+		<img src="art2.jpg" thumbnailSrc="art2.jpg"  width="622" height="776" />
+		<img src="art3.jpg" thumbnailSrc="art3.jpg"  width="681" height="916" />
+		<img src="art4.jpg" thumbnailSrc="art4.jpg"  width="800" height="533" />
+		<img src="art5.jpg" thumbnailSrc="art5.jpg"  width="707" height="886"  />
+		<img src="art6.jpg" thumbnailSrc="art6.jpg"  width="638" height="853"  />
+		<img src="art7.jpg" thumbnailSrc="art7.jpg"  width="800" height="599"  />
+		<img src="art8.jpg" thumbnailSrc="art8.jpg"  width="800" height="595"  />
+		<img src="art9.jpg" thumbnailSrc="art9.jpg"  width="800" height="550"  />
+		<img src="art10.jpg" thumbnailSrc="art10.jpg"  width="734" height="922"   />
+		<img src="art11.jpg" thumbnailSrc="art11.jpg"  width="800" height="642"  />
+		<img src="art12.jpg" thumbnailSrc="art12.jpg"  width="576" height="722"  />
+       <img src="art20.jpg" thumbnailSrc="art20.jpg"  width="800" height="801"  />
+       <img src="RC_01.jpg" thumbnailSrc="RC_01.jpg"  width="718" height="900"  />
+       <img src="RC_02.jpg" thumbnailSrc="RC_02.jpg"  width="894" height="900"  />
+       <img src="RC_03.jpg" thumbnailSrc="RC_03.jpg"  width="683" height="900"  />
+       <img src="RC_04.jpg" thumbnailSrc="RC_04.jpg"  width="716" height="900"  />
+       <img src="RC_05.jpg" thumbnailSrc="RC_05.jpg"  width="722" height="900"  />
+       <img src="RC_06.jpg" thumbnailSrc="RC_06.jpg"  width="900" height="718"  />
+       <img src="RC_07.jpg" thumbnailSrc="RC_07.jpg"  width="750" height="944"  />
+       <img src="RC_08.jpg" thumbnailSrc="RC_08.jpg"  width="651" height="900"  />
+       <img src="RC_09.jpg" thumbnailSrc="RC_09.jpg"  width="229" height="900"  />
+       <img src="RC_10.jpg" thumbnailSrc="RC_10.jpg"  width="236" height="900"  />
+       <img src="RC_11.jpg" thumbnailSrc="RC_11.jpg"  width="234" height="900"  />
+       <img src="RC_012.jpg" thumbnailSrc="RC_012.jpg"  width="719" height="900"  />
+       <img src="RC_013.jpg" thumbnailSrc="RC_013.jpg"  width="721" height="900"  />
+       <img src="RC_014.jpg" thumbnailSrc="RC_014.jpg"  width="725" height="900"  />
+       <img src="RC_015.jpg" thumbnailSrc="RC_015.jpg"  width="540" height="900"  />
+	
+			</gallery>

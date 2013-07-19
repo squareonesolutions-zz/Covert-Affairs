@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Covert Affairs</title>
+<!-- TemplateEndEditable -->
+</script> 
+<!-- TemplateBeginEditable name="Meta Tags" -->
+<meta name="keywords" content="Private Chef" />
+<meta name="description" content="Covert Affairs" />
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="Head" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" media="screen" href="../styles.css"  />
+<script type="text/javascript" src="../Scripts/date.js"></script>
+<script type="text/javascript" src="../Scripts/preload-images.js"></script>
+<style type="text/css">
+<!--
+
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('../template-gfx/corner-logo-art-over.jpg','../template-gfx/menu/home-on.jpg','../template-gfx/menu/about-on.jpg','../template-gfx/menu/services-on.jpg','../template-gfx/menu/clients-on.jpg','../template-gfx/menu/reservations-on.jpg','../template-gfx/menu/giftcards-on.jpg','../template-gfx/menu/blog-on.jpg','../template-gfx/menu/contact-on.jpg','../template-gfx/menu/small-bites-on.jpg','../template-gfx/menu/starters-on.jpg','../template-gfx/menu/desserts-on.jpg','../template-gfx/menu/drinks-on.jpg','../template-gfx/menu/recipes-on.jpg')">
+<div align="center">
+  <br />
+  <table bgcolor="#FFFFFF" width="0" border="0" cellspacing="0" cellpadding="0"><tr>
+    <td><table bgcolor="#FFFFFF" width="0" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="780" height="173" background="../template-gfx/header.jpg">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="26"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="../template-gfx/menu/left.jpg" width="86" height="38" /><a href="http://www.covertaffairs.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','../template-gfx/menu/home-on.jpg',1)"><img src="../template-gfx/menu/home.jpg" alt="Home" name="Home" width="63" height="38" border="0" id="Home" /></a><a href="../personal-chef-hawaii-about-us.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('About','','../template-gfx/menu/about-on.jpg',1)"><img src="../template-gfx/menu/about.jpg" alt="About" name="About" width="67" height="38" border="0" id="About" /></a><a href="../personal-chef-hawaii-services.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Services','','../template-gfx/menu/services-on.jpg',1)"><img src="../template-gfx/menu/services.jpg" alt="Services" name="Services" width="79" height="38" border="0" id="Services" /></a><a href="../private-chef-hawaii-clients.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Clients','','../template-gfx/menu/clients-on.jpg',1)"><img src="../template-gfx/menu/clients.jpg" alt="Clients" name="Clients" width="73" height="38" border="0" id="Clients" /></a><a href="../private-chef-oahu-reservations.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Reservations','','../template-gfx/menu/reservations-on.jpg',1)"><img src="../template-gfx/menu/reservations.jpg" alt="Reservations" name="Reservations" width="123" height="38" border="0" id="Reservations" /></a><a href="../private-chef-oahu-gifts.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('GiftCards','','../template-gfx/menu/giftcards-on.jpg',1)"><img src="../template-gfx/menu/giftcards.jpg" alt="Gift Certificates" name="GiftCards" width="140" height="38" border="0" id="GiftCards" /></a><a href="http://www.covertaffairs.com/blog/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Blog','','../template-gfx/menu/blog-on.jpg',1)"><img src="../template-gfx/menu/blog.jpg" alt="Blog" name="Blog" width="64" height="38" border="0" id="Blog" /></a><a href="../contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','../template-gfx/menu/contact-on.jpg',1)"><img src="../template-gfx/menu/contact.jpg" alt="Contact" name="Contact" width="85" height="38" border="0" id="Contact" /></a></td>
+        </tr>
+        <tr>
+          <td width="780"><div align="right"><a href="../small-bites.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('SmallBites','','../template-gfx/menu/small-bites-on.jpg',1)"><img src="../template-gfx/menu/small-bites.jpg" alt="Small Bites" name="SmallBites" width="84" height="24" border="0" id="SmallBites" /></a><a href="../appetizers.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Starters','','../template-gfx/menu/starters-on.jpg',1)"><img src="../template-gfx/menu/starters.jpg" alt="Starters" name="Starters" width="73" height="24" border="0" id="Starters" /></a><a href="../entrees.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Entrees','','../template-gfx/menu/entrees-on.jpg',0)"><img src="../template-gfx/menu/entrees.jpg" alt="Entrées" name="Entrees" width="69" height="24" border="0" id="Entrees" /></a><a href="../desserts.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Desserts','','../template-gfx/menu/desserts-on.jpg',1)"><img src="../template-gfx/menu/desserts.jpg" alt="Desserts" name="Desserts" width="77" height="24" border="0" id="Desserts" /></a><a href="../drinks.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Drinks','','../template-gfx/menu/drinks-on.jpg',1)"><img src="../template-gfx/menu/drinks.jpg" alt="Drinks" name="Drinks" width="67" height="24" border="0" id="Drinks" /></a><a href="recipes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Recipes','','../template-gfx/menu/recipes-on.jpg',1)"><img src="../template-gfx/menu/recipes.jpg" alt="Recipes" name="Recipes" width="68" height="24" border="0" id="Recipes" /></a></div></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td><br /><!-- TemplateBeginEditable name="Title" --><img src="../template-gfx/page-bio.jpg" width="780" height="42" border="0"  /><br />
+            <br />
+        <!-- TemplateEndEditable --><hr /> <!-- TemplateBeginEditable name="Content" -->
+        <table width="780" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="400" valign="top"><h5>&nbsp;</h5></td>
+            <td valign="top"><div align="center">
+                <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div></td>
+          </tr>
+        </table>
+        <!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <hr /><div align="center">
+        <p><a href="../hawaiian-art.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('CovertArt','','../template-gfx/corner-logo-art-over.jpg',1)"><img style="padding-right: 32px" src="../template-gfx/corner-logo-art.jpg" alt="Visit the Covert Art Gallery" name="CovertArt" width="321" height="135" vspace="5" border="0" id="CovertArt" /></a></p>
+      </div></td>
+    </tr>
+  </table></td>
+    </tr>
+  </table>
+  <h4 class="footer-text">Copyright <script type="text/javascript">printYear();</script> 
+  &copy; Covert Affairs LLC.&nbsp; All Rights Reserved. <a class="footer-text" href="../personal-chef-privacy-policy.html">Privacy Policy</a> |   <a class="footer-text" href="../personal-chef-privacy-policy.html#terms">Terms &amp; Conditions</a> | <a class="footer-text" href="../site-map.html">Site Map</a></h4>
+  <h4 class="footer-text">Website by <a href="http://startatsquareone.com" class="footer-text" target="_blank">Square One Internet Solutions</a></h4>
+  <p>&nbsp;</p>
+</div>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="195,32,196,33" href="#" />
+</map>
+
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="256,31,261,32" href="#" />
+</map>
+
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="303,10,578,30" href="small-bites.html" />
+  <area shape="rect" coords="383,6,638,27" href="starters.html" />
+  <area shape="rect" coords="342,7,701,27" href="entrees.html" />
+  <area shape="rect" coords="307,7,772,28" href="desserts.html" />
+  <area shape="rect" coords="109,3,183,39" href="http://covertaffairs.com/onthetable/" />
+</map>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7619917-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  
+</body>
+</html>

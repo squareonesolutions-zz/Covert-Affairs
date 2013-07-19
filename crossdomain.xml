@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+
+<cross-domain-policy>   <allow-access-from domain="www.covertaffairs.com" />  <allow-access-from domain="covertaffairs.com" />
+  <allow-access-from domain="www.covertaffairsart.com" />  <allow-access-from domain="covertaffairsart.com" />
+</cross-domain-policy>

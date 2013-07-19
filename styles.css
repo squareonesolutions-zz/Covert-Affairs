@@ -1,0 +1,136 @@
+body {
+	background-color: #000;
+	background-image: url(../template-gfx/bg.jpg);
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+li {
+	text-align: left;
+}
+
+p {
+	text-align: left;
+}
+
+a, a:visited, a:active {
+	color: #ab0f0f;
+}
+a:hover {
+	color: #000000;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h2.art-title {
+	font-size: 28px;
+}
+
+.art-details {
+	font-size: 17px;
+	color: #929292;
+}
+
+.testimonials {
+	font-size: 17px;
+	color: #929292;
+}
+
+.testimonials-author {
+	font-size: 11px;
+	color: #4e4e4e;
+}
+
+
+
+h2.content-title {
+	font-size: 16px;
+	text-decoration: underline;
+	margin-bottom: -12px;
+}
+#MainMenu {	margin-left: 8px;  margin-top: -2px; }
+#MainMenu a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 12px 8px 8px 8px;
+}
+#MainMenu a:hover {
+	color: #ffffff;
+	background-color: #000000;
+	background-image: url(template-gfx/menu-bg.jpg);
+}
+#SubMenu {	margin-left: 326px; margin-top: 0px;  }
+#SubMenu a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #8c000b;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 12px 8px 8px 8px;
+}
+#SubMenu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}	
+
+.footer-text {
+	color: #C9C9C9;
+	font-size: 12px;
+}
+a.footer-text {
+	color: #C9C9C9;
+	font-size: 12px;
+	text-decoration: none;
+}
+a.footer-text:hover {
+	text-decoration: underline;
+}
+img.img-bordered {
+	border: 5px solid #000;
+}
+a.blacklinks {
+	color: #620001;
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+a.blacklinks:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+}
+	
+.menu-text {
+	font-size: 17px;
+	font-style:italic;
+	color: #333;
+}
+.menu-text-small {
+	font-size: 14px;
+	font-style:  normal;
+	color: #333;
+}
+a.author-link {
+	text-decoration: none;
+}
+a.author-link:hover {
+	text-decoration: underline;
+}
+
+.slightly-smaller {
+	font-size: 13px;	
+}
+
+.tinytext {
+	font-size: 12px;
+}
