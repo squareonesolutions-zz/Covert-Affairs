@@ -1,0 +1,265 @@
+// JavaScript Document
+function setCat(category_field,results_div,cat_level)
+{
+    var iReturnValue = 0;
+    document.getElementById("loadpic").style.height = document.getElementById('wrapform').offsetHeight + 'px';
+    document.getElementById("loadin").style.display = 'block';
+
+    var mysack = new sack(DACDSettings.requesturl);    
+        mysack.execute = 1;
+        mysack.method = 'GET';
+        mysack.setVar( "category_id", category_field );
+        mysack.setVar( "results_div_id", results_div );
+        mysack.setVar( "category_level", cat_level);
+        mysack.onError = function() { alert('AJAX error occured.' )};
+        mysack.runAJAX();
+        
+    return true;    
+}
+
+function setAdminCat(category_field,results_div,cat_level,cat_level2)
+{
+var mysack = new sack( 
+       "http://mysite.com/wp-content/plugins/dya_cat_dropdown/dya_cat_dropdown_request.php");    
+    
+      mysack.execute = 1;
+      mysack.method = 'GET';
+      mysack.setVar( "admin", category_field );
+      mysack.setVar( "category_id", category_field );
+      mysack.setVar( "results_div_id", results_div );
+      mysack.setVar( "category_level", cat_level);
+      mysack.setVar( "category_level2", cat_level2);
+      mysack.onError = function() { alert('AJAX error in voting' )};
+      mysack.runAJAX();
+    return true;
+    
+}
+function setFiltercatf(category_field,results_div,cat_level,cat_level2)
+{
+var mysack = new sack( 
+       "http://mysite.com/wp-content/plugins/dya_cat_dropdown/dya_cat_dropdown_request.php");    
+    
+      mysack.execute = 1;
+      mysack.method = 'GET';
+      mysack.setVar( "filter", category_field );
+      mysack.setVar( "category_id", category_field );
+      mysack.setVar( "results_div_id", results_div );
+      mysack.setVar( "category_level", cat_level);
+      mysack.setVar( "category_level2", cat_level2);
+      mysack.onError = function() { alert('AJAX error in voting' )};
+      mysack.runAJAX();
+    return true;
+    
+}
+function saveposttocategory(post_id, main_cat, myselectbox)
+{
+
+if (myselectbox) { 
+alert ("CHECKED");
+var mysack = new sack( 
+       "http://mysite.com/wp-content/plugins/dya_cat_dropdown/dya_cat_dropdown_request.php");    
+    
+      mysack.execute = 1;
+      mysack.method = 'GET';
+      mysack.setVar( "savepostcat", post_id );
+      mysack.setVar( "post_id", post_id );
+      mysack.setVar( "category_id", main_cat );
+      mysack.onError = function() { alert('AJAX error in voting' )};
+      mysack.runAJAX();
+      alert (post_id+' saved to: '+main_cat);
+    return true;
+ }
+else { 
+alert ("NOT CHECKED"); 
+var mysack = new sack( 
+       "http://mysite.com/wp-content/plugins/dya_cat_dropdown/dya_cat_dropdown_request.php");    
+    
+      mysack.execute = 1;
+      mysack.method = 'GET';
+      mysack.setVar( "deletepostcat", post_id );
+      mysack.setVar( "post_id", post_id );
+      mysack.setVar( "category_id", main_cat );
+      mysack.onError = function() { alert('AJAX error in voting' )};
+      mysack.runAJAX();
+      alert (post_id+' deleted cat: '+main_cat);
+    return true;
+}
+
+
+    
+}
+function addOption(selectbox,text,value)
+{
+var optn = document.createElement("OPTION");
+
+optn.text = text;
+optn.value = value;
+selectbox.options.add(optn);
+return true;
+}
+function deleteOption(selectbox)
+{
+var i;
+
+for(i=selectbox.options.length-1;i>=0;i--)
+{
+selectbox.remove(i);
+}
+return true;
+}
+function get_form_cat(main_cat, result_div)
+{
+var mysack = new sack( 
+       "http://mysite.com/wp-content/plugins/dya_cat_dropdown/dya_cat_dropdown_request.php");    
+    
+      mysack.execute = 1;
+      mysack.method = 'GET';
+      mysack.setVar( "get_form_countries", 'true' );
+      mysack.setVar( "results_div_id", result_div );
+      mysack.setVar( "cat_id", main_cat );
+      mysack.onError = function() { alert('AJAX error in voting' )};
+      mysack.runAJAX();
+    return true;
+}
+function showmebydivid(idtoshow)
+{
+//new Effect.toggle(idtoshow,'blind');
+//var myFx = new Fx.Slide(idtoshow).toggle();
+//var myFx = new Fx.Tween(idtoshow).set('display', 'block');
+document.getElementById(idtoshow).style.display = 'block';
+
+    
+return false;
+}
+function shownavlink(clevel)
+{
+    pgoname = 'pgo' + clevel;
+    
+    setTimeout("showmebydivid(pgoname)",5000);
+
+}
+function querySt(ji) {
+hu = window.location.search.substring(1);
+gy = hu.split("&");
+for (i=0;i<gy.length;i++) {
+ft = gy[i].split("=");
+if (ft[0] == ji) {
+return ft[1];
+}
+}
+}
+
+
+
+
+var server = 'http://mysite.com/wp-content/plugins/dya_cat_dropdown/';
+function $()
+{
+	var elements = new Array();
+	for (var i = 0; i < arguments.length; i++)
+	{
+		var element = arguments[i];
+		if (typeof element == 'string')
+			element = document.getElementById(element);
+		if (arguments.length == 1)
+			return element;
+		elements.push(element);
+	}
+	return elements;
+}
+var xmlhttp = false;
+function getHTTPReq(url,destinationid)
+{
+	
+        if (window.XMLHttpRequest) { xmlhttp=new XMLHttpRequest(); }
+	else if (window.ActiveXObject) { xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); }
+	if (xmlhttp)
+	{
+		xmlhttp.open("GET",url,true);
+		xmlhttp.onreadystatechange = function()
+		{
+			if (xmlhttp.readyState==4)
+			{
+				if (xmlhttp.status==200) 
+                                { 
+                                      $(destinationid).innerHTML = xmlhttp.responseText;
+                                      if (destinationid == 'pinfo') { window.location = xmlhttp.responseText; }
+                                }
+				else { $(destinationid).innerHTML = 'Fail'; }
+			}
+		}
+		if (window.XMLHttpRequest) { xmlhttp.send(null); }
+		else if (window.ActiveXObject) { xmlhttp.send(); }
+	}
+}
+var xmlhttp = false;
+function checkHTTPReq(url,destinationid)
+{
+	
+        if (window.XMLHttpRequest) { xmlhttp=new XMLHttpRequest(); }
+	else if (window.ActiveXObject) { xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); }
+	if (xmlhttp)
+	{
+		xmlhttp.open("GET",url,true);
+		xmlhttp.onreadystatechange = function()
+		{
+			if (xmlhttp.readyState==4)
+			{
+				if (xmlhttp.status==200) { $(destinationid).innerHTML = xmlhttp.responseText; }
+				else { $(destinationid).innerHTML = 'Fail'; }
+			}
+		}
+		if (window.XMLHttpRequest) { xmlhttp.send(null); }
+		else if (window.ActiveXObject) { xmlhttp.send(); }
+	}
+}
+
+function setCat1()
+{
+	var cat0 = $('cat0').value;
+	if (continent !== '')
+	{
+		getHTTPReq(server+'dya_cat_dropdown_request.php?cat1='+cat0, 'pcat1');
+	}
+}
+function setRegionCity()
+{
+	var country = $('country').value;
+	if (country !== '')
+	{
+		if(country != 'SELECT COUNTRY')
+		{
+			getHTTPReq(server+'geo_dropdown.php?region='+country, 'prn');
+			
+		}
+	}
+}
+function next()
+{
+	var country = $('country').value;
+	if (country !== '')
+	{
+		if(country != 'SELECT COUNTRY')
+		{
+			getHTTPReq(server+'geo_dropdown.php?city='+country, 'pcy');
+		}
+	}
+}
+function setCity()
+{
+	var country = $('country').value;
+	var region = $('region').value;
+	if (country !== '')
+	{
+		if(country != 'SELECT REGION')
+		{
+			getHTTPReq(server+'geo_dropdown.php?country2='+country+'&city2='+region, 'pcy');
+		}
+	}
+}
+function setInfo(city)
+{
+	var country = $('country').value;
+	var region = $('region').value;
+        getHTTPReq(server+'geo_dropdown.php?info='+city+'&goregion='+region+'&gocountry='+country, 'pinfo');
+}
